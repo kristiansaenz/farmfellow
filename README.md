@@ -1,3 +1,5 @@
+Produce is a web app that serves as a platform for farmers, garden hobbyists to advertise their home-grown produce and goods. You can sign up and create a booth to have your booth listed on the marketplace. If you don't want to make a booth, you can signup and follow your favorite booths to see what kind of new goods that they have in season.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +36,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Lets stay organized!
+
+### Store project files outside of app
+This strategy stores all application code in shared folders in the root of your project and keeps the app directory purely for routing purposes.
+
+
+
