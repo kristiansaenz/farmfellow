@@ -1,7 +1,7 @@
 import {Card, CardSection, Flex, Group, Text, rem} from '@mantine/core'
 import {IconMapPinFilled} from '@tabler/icons-react'
 import Link from 'next/link'
-import ImageCarousel from './ImageCarousel'
+import ImageCarousel from '../../../components/ImageCarousel'
 
 export default function BoothCard({booth}) {
 

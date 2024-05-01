@@ -38,6 +38,15 @@ const recentlyUpdatedBooths = [
   },
 ]
 
+const myBooth = {
+  id: 7,
+  image: 'https://www.southernliving.com/thmb/4LVlzOp4IO3M1BhLo-bDhVcX-nY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rmasey_vegetable_garden_overall_2491901_ramse_0391-2000-de885ad0dacc412e9cb8cd57d6ee7910.jpg',
+  name: 'Trevor\'s Garden Oasis',
+  location: 'Vancouver, Canada'
+}
+
 export {
+  myBooth,
   recentlyUpdatedBooths
 }
+

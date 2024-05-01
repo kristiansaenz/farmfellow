@@ -1,14 +1,15 @@
 "use client"
-import {useState} from 'react'
-import {Container, Group, Burger, Avatar, Flex, rem} from '@mantine/core'
+import {Avatar, Burger, Container, Flex, Group} from '@mantine/core'
 import {useDisclosure} from '@mantine/hooks'
 import classes from 'css/header.module.css'
+import Link from 'next/link'
 import {useRouter} from 'next/navigation'
-import {IconLemon} from '@tabler/icons-react'
+import {useState} from 'react'
 
 const links = [
   {link: '/dashboard', label: 'Dashboard'},
   {link: '/explore', label: 'Explore'},
+  {link: '/my-booth', label: 'My Booth'},
 ]
 
 const styles = {
@@ -37,13 +38,15 @@ export function HeaderSimple() {
   ))
 
   const AppLogo = () => (
-    <Flex>
-      {/* <IconLemon
+    <Link href="/dashboard">
+      <Flex>
+        {/* <IconLemon
               style={{width: rem(24), height: rem(24)}}
               stroke={1.5}
             /> */}
-      <h2>FarmFellow</h2>
-    </Flex>
+        <h2>FarmFellow</h2>
+      </Flex>
+    </Link>
   )
 
   return (

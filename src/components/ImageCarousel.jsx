@@ -1,9 +1,9 @@
 import {Carousel, CarouselSlide} from '@mantine/carousel'
 import {Image} from '@mantine/core'
 
-export default function ImageCarousel({booth}) {
+export default function ImageCarousel({booth, height = 200}) {
   return (
-    <Carousel withIndicators height={200}>
+    <Carousel withIndicators height={height}>
       <CarouselSlide>
         <Image
           style={{height: '100%'}}
